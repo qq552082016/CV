@@ -1,3 +1,4 @@
 streamlit==1.9.0 
-pylab
+matplotlib
+pillow
 protobuf~=3.19.0
