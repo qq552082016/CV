@@ -1,7 +1,5 @@
 #import stereo
 import scipy.misc
-import imageio
-from PIL import Image
 from pylab import *
 from scipy.ndimage import *
 
