@@ -1,11 +1,10 @@
 
 import io
 from pylab import *
-import requests
 from PIL import Image
-from requests_toolbelt.multipart.encoder import MultipartEncoder
 import streamlit as st
 from stereoconfig import plane_sweep_ncc
+
 backend = "http://fastapi:8000/segmentation"
 def process(left_image, right_image):
     # 开始偏移，并设置步长
