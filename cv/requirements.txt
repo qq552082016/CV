@@ -1,6 +1,6 @@
 streamlit==1.9.0 
-matplotlib
-pillow
-scipy
-imageio
+matplotlib==3.5.3
+pillow==9.5.0
+scipy==1.7.3
+imageio==2.19.3
 protobuf~=3.19.0
