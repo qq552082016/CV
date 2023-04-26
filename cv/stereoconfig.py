@@ -1,4 +1,3 @@
-#import stereo
 import scipy.misc
 from pylab import *
 from scipy.ndimage import *
