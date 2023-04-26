@@ -1,7 +1,7 @@
 docx==0.2.4
 imageio==2.22.4
 matplotlib
-numpy==1.23.4
-Pillow==9.3.0
+numpy
+Pillow
 python-docx==0.8.11
-scipy==1.9.3
+scipy
