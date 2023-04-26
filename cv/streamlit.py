@@ -5,7 +5,6 @@ from PIL import Image
 import streamlit as st
 from stereoconfig import plane_sweep_ncc
 
-backend = "http://fastapi:8000/segmentation"
 def process(left_image, right_image):
     # 开始偏移，并设置步长
     steps = 200
